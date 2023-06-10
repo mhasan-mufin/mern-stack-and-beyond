@@ -1,0 +1,33 @@
+# Ignore temporary and build-specific files
+*~
+.DS_Store
+.env
+.vscode
+
+# Ignore dependency directories
+node_modules
+vendor
+
+# Ignore logs and output files
+logs
+*.log
+
+# Ignore version control system directories
+.git
+.svn
+
+# Ignore IDE-specific files and directories
+.idea
+.vs
+
+# Ignore system and hidden files
+.cache
+.npmrc
+
+# Ignore development and testing artifacts
+coverage
+.pytest_cache
+
+# Ignore documentation files
+docs
+README.md
